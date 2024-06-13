@@ -1,0 +1,41 @@
+@import '../scss/var';
+@import '../scss/vendor';
+@import '../scss/mixin';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h2{
+  font-weight: 600;
+  font-style: 40px;
+  line-height: 60px;
+  color:$text-color;
+}
+h3{
+  font-weight: 400;
+  font-style: 16px;
+  line-height: 24px;
+  color:$text-color;
+}
+h4{
+  font-weight: 500;
+  font-style: 14px;
+  line-height: 21px;
+  color:$text-color;
+}
+p{
+  font-weight: 400;
+  font-style: 14px;
+  list-style: 24px;
+  color:$text-color;
+opacity: 0.7;
+
+}
+
+.was-validated .form-check-input:valid~.form-check-label {
+   color: var(--bs-none); 
+}
+
